@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kinetic Sandfall Game</title>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital@0;1&family=DM+Mono:wght@300;400&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./sand.css">
+
+</head>
+<body>
+    
+    <div class="grain"></div>
+
+    <header>
+        <h1>Kinetic Sandfall</h1>
+        <p>drag to pour &nbsp;·&nbsp; watch it fall</p>
+    </header>
+
+    <div class="canvas">
+        <canvas id="sand-canvas"></canvas>
+    </div>
+
+    <div class="controls">
+        <div class="control-group">
+            <label>Brush Size</label>
+            <div class="slider-row">
+                <input type="range" id="brush-size" min="4" max="45" value="16" step="1">
+                <span id="brush-value">16</span>
+            </div>
+        </div>
+        <div class="control-group">
+            <label>Flow Speed</label>
+            <div class="slider-row">
+                <input type="range" id="flow-speed" min="1" max="6" value="3" step="1">
+                <span id="speed-val">3</span>
+            </div>
+        </div>
+        <div class="color-section">
+            <label>Color</label>
+            <div class="swatches" id="swatches"></div>
+        </div>
+        <button class="download-btn" id="download-btn">Download</button>
+        <button class="btn-clear" id="clear-btn">Clear</button>
+    </div>
+
+    <p class="hint">click &amp; drag on the canvas &nbsp;·&nbsp; Unleash Your Inner Artist</p>
+    <script src="./sand.js"></script>
+</body>
+</html>
