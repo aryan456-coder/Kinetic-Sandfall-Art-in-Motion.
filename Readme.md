@@ -14,7 +14,7 @@ An interactive generative art experience that simulates flowing sand-like partic
 
 Kinetic Sandfall is a creative coding experiment that visualizes motion using particle-based animation. It mimics the behavior of falling sand and fluid motion, producing calming and dynamic visual effects.
 
-Kinetic art focuses on movement—either real or simulated—to create engaging visual experiences. :contentReference[oaicite:0]{index=0}
+Kinetic art focuses on movement—either real or simulated—to create engaging visual experiences.
 
 ---
 
